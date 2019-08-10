@@ -45,6 +45,10 @@ for letter in string.ascii_uppercase:
 
 print("number of words: "+str(len(words)))
 
+unique_words = list(set(words))
+
+print("number of unique words: "+str(len(unique_words)))
+
 #Create a file and write all of the words to it
 # word_list = open ("SlangSite.txt", "w")
 # for word in words:
